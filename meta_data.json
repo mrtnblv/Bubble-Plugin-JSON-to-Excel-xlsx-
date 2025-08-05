@@ -1,0 +1,14 @@
+{
+    "categories": {
+        "0": "productivity",
+        "1": "technical",
+        "2": "data (things)",
+        "3": "analytics",
+        "4": "chart"
+    },
+    "description": "This plugin allows you to generate and download an Excel .xlsx file directly from a JSON array. Useful for exporting reports, tables, or any structured data from your Bubble app.\n\nExample Usage\n\n\n- rawJSON:\n[\n  {\"Name\": \"Alice\", \"Age\": 30, \"City\": \"Paris\"},\n  {\"Name\": \"Bob\", \"Age\": 25, \"City\": \"Lyon\"}\n]\n\n- Column Widths:\n20,10,15\n\n- Filename:\nuser_export\n",
+    "image": "//meta-q.cdn.bubble.io/f1743670606742x810675242278137000/image%20%281%29.png",
+    "license": "open_source",
+    "name": "JSON to Excel (xlsx)",
+    "plugin_instructions": "Example Usage\n\n\n- rawJSON:\n[\n  {\"Name\": \"Alice\", \"Age\": 30, \"City\": \"Paris\"},\n  {\"Name\": \"Bob\", \"Age\": 25, \"City\": \"Lyon\"}\n]\n\n- Column Widths:\n20,10,15\n\n- Filename:\nuser_export\n"
+}

@@ -1,0 +1,32 @@
+{
+    "category": "plugins",
+    "display": "export XLSX from JSON",
+    "fields": {
+        "AAD": {
+            "caption": "rawJSON",
+            "doc": "A stringified JSON array of objects to convert into Excel format. Must be a valid JSON.",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "rawjson",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAE": {
+            "caption": "Column Widths",
+            "doc": "Comma-separated list of column widths (e.g. \"20,10,15\"). Applies to the columns in order.",
+            "editor": "DynamicValue",
+            "name": "colWidths",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAF": {
+            "caption": "Filename",
+            "doc": "The name of the generated Excel file (without the .xlsx extension)",
+            "editor": "DynamicValue",
+            "name": "filename",
+            "rank": 2,
+            "value": "text"
+        }
+    },
+    "type": "client_side"
+}
